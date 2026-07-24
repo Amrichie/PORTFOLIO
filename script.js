@@ -85,7 +85,7 @@ if (whatsappForm) {
     const email = document.getElementById("email").value;
     const message = document.getElementById("message").value;
 
-    const phone = "2348012345678"; // Replace with your WhatsApp number
+    const phone = "2349043315770"; // Replace with your WhatsApp number
 
     const text =
 `Hello Amrich,
