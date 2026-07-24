@@ -101,3 +101,22 @@ ${message}`;
     window.open(url, "_blank");
   });
 }
+
+const menuBtn = document.getElementById("menuBtn");
+const navLinks = document.querySelector(".nav-links-pill");
+
+menuBtn.addEventListener("click", () => {
+
+    navLinks.classList.toggle("show-menu");
+
+    if(navLinks.classList.contains("show-menu")){
+
+        menuBtn.innerHTML="✕";
+
+    }else{
+
+        menuBtn.innerHTML="☰";
+
+    }
+
+});
